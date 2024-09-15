@@ -51,7 +51,7 @@ const UserStack = () => (
 const TabNavigator = ({ navigation }) => (
   <Tab.Navigator
     initialRouteName="Contacts"
-    barStyle={{ backgroundColor: colors.blue }}
+    barStyle={{ backgroundColor: "#FFCC00" }}
     activeColor={colors.greyLight}
     inactiveColor={colors.greyDark}
     screenOptions={({ route }) => ({
@@ -104,7 +104,7 @@ const DrawerNavigator = () => {
     <NavigationContainer>
       <Drawer.Navigator
         screenOptions={{
-          headerStyle: { backgroundColor: colors.blue },
+          headerStyle: { backgroundColor: "#FFCC00" },
           headerTintColor: "white",
           drawerActiveTintColor: colors.blue,
           drawerInactiveTintColor: colors.greyDark,
